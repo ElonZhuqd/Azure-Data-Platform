@@ -57,4 +57,4 @@ bronze - source of truth (Data Engineer)
 silver - data cleaning, enrich, common data model (CDM), SCD2 (Data Scientist, Machine Learning, Data Analyst)
 gold - aggregation, fact and dimension tables for reporting (Business Users)
 
-Tools - Azure Data Factory (data ingestion), Azure Databricks (data transformation)
+Tools - Azure Data Factory (data ingestion), Azure Databricks (data processing), Azure SQL Database, Azure Storage Account, Azure Key Vault
