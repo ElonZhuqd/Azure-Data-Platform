@@ -24,7 +24,7 @@ Deductibles
 -Bring cash
 -also minimize the collection period
 
-KPIs to measure AR and set benchmarks:
+KPIs to measure AR and set benchmarks: https://gentem.com/blog/revenue-cycle-kpis-definitions-and-benchmarks/
 1. AR > 90 days
 2. Days in AR
 3. etc
