@@ -28,3 +28,15 @@ KPIs to measure AR and set benchmarks: https://gentem.com/blog/revenue-cycle-kpi
 1. AR > 90 days
 2. Days in AR
 3. etc
+
+Datasets
+==========
+EMR Data - Electronic Medical Records (Azure SQL DB)
+    - Patients
+    - HCP/Providers
+    - Department
+    - Transactions
+    - Encounter 
+Claims Data
+NPI Data
+ICD Data
