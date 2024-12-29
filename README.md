@@ -31,12 +31,28 @@ KPIs to measure AR and set benchmarks: https://gentem.com/blog/revenue-cycle-kpi
 
 Datasets
 ==========
-EMR Data - Electronic Medical Records (Azure SQL DB)
+1. EMR Data - Electronic Medical Records (Azure SQL DB)
     - Patients
     - HCP/Providers
     - Department
     - Transactions
     - Encounter 
-Claims Data
-NPI Data
-ICD Data
+
+    Hospital a - Azure SQL DB
+    Hospital b - Azure SQL DB
+    
+2. Claims Data - Insurance company / payer (flat files) 
+    - folder in Data Lake - Landing (monthly once)
+    
+3. NPI Data - National Provider Identifier / Provider data (Public API)
+
+4. ICD Data - ICD codes are a standardized system used by health care providers to map diagnosis code and description. (API)
+
+Solution/Medallion Architecture
+=====================================
+landing    -> bronze        -> silver       -> gold
+flat files -> parquet files -> Delta tables -> Delta tables
+
+bronze - source of truth
+silver - data cleaning, enrich, common data model (CDM), SCD2
+gold - aggregation, fact and dimension tables for reporting
