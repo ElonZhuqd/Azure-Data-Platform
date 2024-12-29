@@ -53,6 +53,8 @@ Solution/Medallion Architecture
 landing    -> bronze        -> silver       -> gold
 flat files -> parquet files -> Delta tables -> Delta tables
 
-bronze - source of truth
-silver - data cleaning, enrich, common data model (CDM), SCD2
-gold - aggregation, fact and dimension tables for reporting
+bronze - source of truth (Data Engineer)
+silver - data cleaning, enrich, common data model (CDM), SCD2 (Data Scientist, Machine Learning, Data Analyst)
+gold - aggregation, fact and dimension tables for reporting (Business Users)
+
+Tools - Azure Data Factory (data ingestion), Azure Databricks (data transformation)
