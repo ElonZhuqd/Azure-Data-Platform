@@ -49,7 +49,10 @@ Datasets
 4. ICD Data - ICD codes are a standardized system used by health care providers to map diagnosis code and description. CPT codes are Current Procedural Terminology codes.In plain language, CPT codes describe clinical procedures and diagnostic and care activities in the healthcare system. (API)
 
 5. CPT Data - ICD codes, aka International Classification of Disease codes, describe the client’s diagnosis. (flat files)
-   In other words, they refer to the specific condition that’s being treated, such as attention-deficit disorder (ADHD), predominantly inattentive type or generalized anxiety disorder (GAD). 
+   In other words, they refer to the specific condition that’s being treated, such as attention-deficit disorder (ADHD), predominantly inattentive type or generalized anxiety disorder (GAD).
+
+note: difference between ICD codes and CPT codes:
+https://www.simplepractice.com/blog/icd-codes-and-cpt-codes/
 
 Solution/Medallion Architecture
 =====================================
