@@ -64,5 +64,3 @@ silver - data cleaning, enrich, common data model (CDM), SCD2 (Data Scientist, M
 gold - aggregation, fact and dimension tables for reporting (Business Users)
 
 Tools - Azure Data Factory (data ingestion), Azure Databricks (data processing), Azure SQL Database, Azure Storage Account, Azure Key Vault
-
-https://github.com/user-attachments/assets/6e55642b-41be-44d4-ab6e-7c4ab92baa5a
